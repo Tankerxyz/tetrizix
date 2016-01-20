@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Stdafx">
+      <UniqueIdentifier>{c45d09d8-f4a5-4669-b8f3-71a78cf81b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Controler">
+      <UniqueIdentifier>{dcd89f5f-0b4f-4222-b294-036af04beb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Controler\View">
+      <UniqueIdentifier>{1f131534-1dd3-42e4-903c-d0db156944d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Model_cpp">
+      <UniqueIdentifier>{5bc250fb-a725-4b35-84f5-1381bea0dbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Controler\Model_h">
+      <UniqueIdentifier>{f900dbc2-47c2-449e-98e4-2ea3482aa030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Controler\Model_h\Figures">
+      <UniqueIdentifier>{6bd732db-b62f-41b0-9d25-3a397d99f388}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="S.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="O.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="L.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="J.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="I.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="T.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Z.h">
+      <Filter>Заголовочные файлы\Controler\Model_h\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="controler.h">
+      <Filter>Заголовочные файлы\Controler</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Заголовочные файлы\Controler\Model_h</Filter>
+    </ClInclude>
+    <ClInclude Include="figura.h">
+      <Filter>Заголовочные файлы\Controler\Model_h</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Заголовочные файлы\Controler\View</Filter>
+    </ClInclude>
+    <ClInclude Include="pole.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetriz.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="controler.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="figura.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="I.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="J.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="L.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="O.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="S.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="T.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Z.cpp">
+      <Filter>Файлы исходного кода\Model_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pole.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
